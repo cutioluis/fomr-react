@@ -1,0 +1,12 @@
+.login-metters {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+
+.text-login {
+    font-weight: 500;
+    color: white;
+    font-size: 40px;
+}
