@@ -20,7 +20,6 @@ const Carrousel = () => {
           />
         </li>
       </ul>
-
       <ul className="menu">
         <li>
           <a href="#slide1"></a>
@@ -32,8 +31,6 @@ const Carrousel = () => {
           <a href="#slide3"></a>
         </li>
       </ul>
-      <Login></Login>
-      <LoginTitle></LoginTitle>
     </div>
   );
 };

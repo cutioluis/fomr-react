@@ -33,10 +33,21 @@ const Login = () => {
                 autoComplete="email"
                 required
               />
+              <br />
+              <span className="login-letter-send">Olvidate tu contraseña</span>
+              <br />
             </label>
-            <label htmlFor="">
-              <button className="login-button">Iniciar Seasion</button>
+            <label  htmlFor="">
+              <div className="label2">
+                    <button className="login-button">Iniciar Seasion</button>
               <button className="login-signin">Registrarse</button>
+              <div className="login-figure">
+                  <div className="figure-line-left"></div>
+                  <div className="figure-ball"></div>
+                  <div className="figure-line-rigth"></div>
+              </div>
+              <button className="login-fb">Iniciar Sesion Facebook</button>
+              </div>
             </label>
           </form>
         </div>
